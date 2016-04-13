@@ -1,0 +1,39 @@
+﻿生成启动时间为 2015/12/29 15:18:53。
+     1>项目“H:\cocos2dx\Projects\五子棋\proj.win32\Chess.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         H:\VS\VC\bin\CL.exe /c /I"C:\Cocos\frameworks\cocos2d-x-3.8\cocos\audio\include" /I"C:\Cocos\frameworks\cocos2d-x-3.8\external" /I"C:\Cocos\frameworks\cocos2d-x-3.8\external\chipmunk\include\chipmunk" /I"C:\Cocos\frameworks\cocos2d-x-3.8\extensions" /I..\Classes /I.. /I"C:\Cocos\frameworks\cocos2d-x-3.8\cocos\2d\..\..\cocos\editor-support" /I"C:\Cocos\frameworks\cocos2d-x-3.8\cocos\2d\..\..\cocos" /I"C:\Cocos\frameworks\cocos2d-x-3.8\cocos\2d\..\..\cocos\platform" /I"C:\Cocos\frameworks\cocos2d-x-3.8\cocos\2d\..\..\cocos\platform\desktop" /I"C:\Cocos\frameworks\cocos2d-x-3.8\cocos\2d\..\..\external\glfw3\include\win32" /I"C:\Cocos\frameworks\cocos2d-x-3.8\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /I"C:\Cocos\frameworks\cocos2d-x-3.8\cocos\2d\..\..\external\freetype2\include\win32\freetype2" /I"C:\Cocos\frameworks\cocos2d-x-3.8\cocos\2d\..\..\external\freetype2\include\win32\\" /I"C:\Cocos\frameworks\cocos2d-x-3.8\cocos\2d\..\..\external" /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _VARIADIC_MAX=10 /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug.win32\\" /Fd"Debug.win32\vc140.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\AppDelegate.cpp ..\Classes\Chess.cpp ..\Classes\GameScene.cpp ..\Classes\HelloWorldScene.cpp main.cpp
+         AppDelegate.cpp
+         Chess.cpp
+         GameScene.cpp
+         HelloWorldScene.cpp
+     1>h:\cocos2dx\projects\五子棋\classes\appdelegate.cpp(39): warning C4305: “参数”: 从“double”到“float”截断 (编译源文件 ..\Classes\AppDelegate.cpp)
+         main.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\bin\rc.exe /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug.win32\game.res" game.rc 
+       PreLinkEvent:
+         if not exist "H:\cocos2dx\Projects\五子棋\proj.win32\Debug.win32\" mkdir "H:\cocos2dx\Projects\五子棋\proj.win32\Debug.win32\"
+         xcopy /Y /Q "C:\Cocos\frameworks\cocos2d-x-3.8\prebuilt\win32\*.*" "H:\cocos2dx\Projects\五子棋\proj.win32\Debug.win32\"
+         
+         :VCEnd
+         复制了 60 个文件
+       Link:
+         H:\VS\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\cocos2dx\Projects\五子棋\proj.win32\Debug.win32\Chess.exe" /INCREMENTAL /NOLOGO /LIBPATH:"H:\cocos2dx\Projects\五子棋\proj.win32\Debug.win32\\" /LIBPATH:"H:\cocos2dx\Projects\五子棋\proj.win32\Debug.win32\\" opengl32.lib glew32.lib libzlib.lib libwebp.lib libiconv.lib freetype.lib winmm.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"H:\cocos2dx\Projects\五子棋\proj.win32\Debug.win32\Chess.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\cocos2dx\Projects\五子棋\proj.win32\Debug.win32\Chess.lib" /MACHINE:X86 /SAFESEH Debug.win32\game.res
+         Debug.win32\AppDelegate.obj
+         Debug.win32\Chess.obj
+         Debug.win32\GameScene.obj
+         Debug.win32\HelloWorldScene.obj
+         Debug.win32\main.obj
+     1>AppDelegate.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+           正在创建库 H:\cocos2dx\Projects\五子棋\proj.win32\Debug.win32\Chess.lib 和对象 H:\cocos2dx\Projects\五子棋\proj.win32\Debug.win32\Chess.exp
+         Chess.vcxproj -> H:\cocos2dx\Projects\五子棋\proj.win32\Debug.win32\Chess.exe
+       CustomBuildStep:
+         if not exist "H:\cocos2dx\Projects\五子棋\proj.win32\Debug.win32\" mkdir "H:\cocos2dx\Projects\五子棋\proj.win32\Debug.win32\"
+         xcopy "H:\cocos2dx\Projects\五子棋\proj.win32\..\Resources" "H:\cocos2dx\Projects\五子棋\proj.win32\Debug.win32\" /D /E /I /F /Y
+               
+         :VCEnd
+         复制了 0 个文件
+     1>已完成生成项目“H:\cocos2dx\Projects\五子棋\proj.win32\Chess.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:02:31.69
